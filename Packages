@@ -1,3 +1,19 @@
+Package: chaoge.ChargeLimiter
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: chaoge
+Depends: firmware (>= 5.0)
+Filename: ./debs/ChargeLimiter_1.7_roothide_arm64.deb
+Size: 2457238
+MD5sum: e7291d7c3f9b504b580b1068ae2d9698
+SHA1: 0d6843dac8738c499c733f69fcd272b44323f8e8
+SHA256: a715b4d2de5da939579a19f6f1657c4a42e73e3af77c36f855ffaa0085abf24c
+Section: Applications
+Priority: optional
+Description: ChargeLimiter for Dopamine RootHide (iOS 12-16.7.x, A11/iPhone X compatible)
+Author: chaoge
+Name: ChargeLimiter
+
 Package: com.antigravity.callsound
 Version: 1.0.8
 Architecture: iphoneos-arm64e
@@ -59,6 +75,124 @@ SHA1: 610a0fe5056da65fae8ef9e197a48d58fa450434
 SHA256: 058d72f38511da07dc5ea134913d0ec948ee76d23f2efff52f8befda68bfa898
 Description: Continuous playback of a bundled MP3 file on iOS 17.
 Name: AudioLoop
+
+Package: com.tlsf.callaudioinjector
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 17.0)
+Filename: ./debs/com.tlsf.callaudioinjector_1.5.0_iphoneos-arm64.deb
+Size: 15640
+MD5sum: 145a7722d1023935f8923c9307c835bd
+SHA1: 2c7e987303272892821236b09d160ad4a7ba06f7
+SHA256: 532e5027567971921b3f74ab0ef2a08024039df18dcad3e1620e24aafe805f98
+Section: Tweaks
+Description: iOS 17 专属：安装后直接显示全局悬浮窗，长按音量下键切换显隐。通话时注入指定音频至麦克风（对方听到）。
+Tag: role::hacker, purpose::extension
+Author: tlsf
+Name: CallAudioInjector
+
+Package: com.tlsf.callaudioinjector
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 17.0)
+Filename: ./debs/com.tlsf.callaudioinjector_1.6.0_iphoneos-arm64.deb
+Size: 15658
+MD5sum: 20d2857c3a8bd5c1e3c18be47a596158
+SHA1: c1490428bcdbde0ed91d9e48635b229f62f1c2f6
+SHA256: e4cb6d21ac200f779000f92c0cf710bc67bff1e8d62986ccaa9beaa76496e355
+Section: Tweaks
+Description: iOS 17 专属：安装后直接显示全局悬浮窗，长按音量下键切换显隐。通话时注入指定音频至麦克风（对方听到）。
+Tag: role::hacker, purpose::extension
+Author: tlsf
+Name: CallAudioInjector
+
+Package: com.tlsf.callaudioinjector
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 17.0)
+Filename: ./debs/com.tlsf.callaudioinjector_1.7.0_iphoneos-arm64.deb
+Size: 19020
+MD5sum: 0e0b115abf682fc436db0df589b71d16
+SHA1: 9b48d94df92a7571be0069f1f6daf21e29c452b4
+SHA256: bb23d89b14e393e3ed427682e1eeb720543e2dd42256de3d387ac0135618f950
+Section: Tweaks
+Description: iOS 17 专属：安装后直接显示全局悬浮窗，长按音量下键切换显隐。通话时注入指定音频至麦克风（对方听到）。
+Tag: role::hacker, purpose::extension
+Author: tlsf
+Name: CallAudioInjector
+
+Package: com.tlsf.callaudioinjector
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 17.0)
+Filename: ./debs/com.tlsf.callaudioinjector_1.8.0_iphoneos-arm64.deb
+Size: 39916
+MD5sum: 4a2ce0ad1fef5c766e0d401488fbd5f8
+SHA1: 64887d6d45e04ecd6d7ce4e869e9ab78c93c047e
+SHA256: 303ae24fc15a3d1ee5e6a75322ee4a3734652288dfffd46939483f56922bfc8d
+Section: Tweaks
+Description: iOS 17 专属：安装后直接显示全局悬浮窗，长按音量下键切换显隐。通话时注入指定音频至麦克风（对方听到）。
+Tag: role::hacker, purpose::extension
+Author: tlsf
+Name: CallAudioInjector
+
+Package: com.tlsf.callaudioinjector
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 17.0)
+Filename: ./debs/com.tlsf.callaudioinjector_1.9.0_iphoneos-arm64.deb
+Size: 41756
+MD5sum: 242d9b46fd9c432fc9000f1b0763b6a4
+SHA1: bf1434ab4a25e417cf2a83319d1dcd1a4d2a5329
+SHA256: 63ed1ba79dad53dc32df25dcee3c27f85ea29f0c57a2d016cd248b4ff1742c98
+Section: Tweaks
+Description: iOS 17 专属：安装后直接显示全局悬浮窗，长按音量下键切换显隐。通话时注入指定音频至麦克风（对方听到）。
+Tag: role::hacker, purpose::extension
+Author: tlsf
+Name: CallAudioInjector
+
+Package: com.tlsf.callaudioinjector
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 17.0)
+Filename: ./debs/com.tlsf.callaudioinjector_2.0.0_iphoneos-arm64.deb
+Size: 43788
+MD5sum: b5d03986f4ec1177fe040c2a0fb9ff30
+SHA1: 1c50c62a21a411f0d3e2c0e1af225629dabbed77
+SHA256: 6ddd2f13a74db5276c1599fb211dc48e5229c024250a0afd083dda838e1af1c5
+Section: Tweaks
+Description: iOS 17 专属：安装后直接显示全局悬浮窗，长按音量下键切换显隐。通话时注入指定音频至麦克风（对方听到）。
+Tag: role::hacker, purpose::extension
+Author: tlsf
+Name: CallAudioInjector
+
+Package: com.tlsf.rightvolumehud
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: tlsftlsftlsf
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.tlsf.rightvolumehud_1.0.0_iphoneos-arm64.deb
+Size: 3800
+MD5sum: 162605ae656ff6a41aa4e80d0c92d76a
+SHA1: 887e5cc81bf782da3795b5b3c3da45d4e60cd938
+SHA256: 928942946546143593f264434b2c852923f11366377b64495f0e0e1bf95ca7fc
+Section: Tweaks
+Description: Move iOS Volume HUD to the right side of the screen
+Author: tlsftlsftlsf
+Name: RightVolumeHUD
 
 Package: com.tlsf.xiniaoreceiverphone
 Version: 1.0.0
@@ -294,15 +428,32 @@ Name: CameraButtonSwap
 
 Package: com.yourname.camerabuttonswap
 Version: 2.6.1
+Architecture: iphoneos-arm64e
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.6.1_iphoneos-arm64e.deb
+Size: 15098
+MD5sum: 9e36a128d5509c75148e24837649c8c1
+SHA1: 80b8bc90a9130dde7659b4b7d463dcaf32bc50c4
+SHA256: 8e5c7d52e454397ff70438a4b054d2b975123b3b26d49e4e0639cdb8b1b1db26
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（彻底修复长按保存后闪退的问题，全重入安全锁，支持长按自由拖拽与持久化记忆）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.6.1
 Architecture: iphoneos-arm64
 Maintainer: Your Name <your@email.com>
 Installed-Size: 204
 Depends: firmware (>= 15.0)
 Filename: ./debs/com.yourname.camerabuttonswap_2.6.1_iphoneos-arm64.deb
-Size: 15172
-MD5sum: 05e0ad799bc7a886d134fcd552a4884b
-SHA1: 91598767a0ca0a4bc9beb9347b816c8d64f59be3
-SHA256: 361003bc5e6f4909fc295ba861938a3dcbc2989714e3eb6d8367db998af0bb25
+Size: 15142
+MD5sum: ee8d952b27f014246f00c716b26931da
+SHA1: f2c722a8f326ee8e3fe20286815cd24364516e85
+SHA256: 901fb04f759304fef501c739f19deae17a438dba28af87e482bec14abf613386
 Section: Tweaks
 Description: 相机「扫描文本」按钮移动到左侧（彻底修复长按保存后闪退的问题，全重入安全锁，支持长按自由拖拽与持久化记忆）
 Tag: role::hacker, purpose::extension
@@ -322,6 +473,74 @@ SHA1: 80b8bc90a9130dde7659b4b7d463dcaf32bc50c4
 SHA256: 8e5c7d52e454397ff70438a4b054d2b975123b3b26d49e4e0639cdb8b1b1db26
 Section: Tweaks
 Description: 相机「扫描文本」按钮移动到左侧（彻底修复长按保存后闪退的问题，全重入安全锁，支持长按自由拖拽与持久化记忆）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.7.0
+Architecture: iphoneos-arm64e
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.7.0_iphoneos-arm64e.deb
+Size: 21330
+MD5sum: d7db0110dc9e3f3117ac1130ea8f6645
+SHA1: 8fddd650ee217ce6f3643e0283ea5beea36494bf
+SHA256: a73395fdee55069b2838c1ee397793fa67818750c2aa4445870ee17a39c1c6f0
+Section: Tweaks
+Description: 相机「实况文本」按钮移动与增强插件（新增点击实况文本按钮自动全选复制，全重入安全锁，支持长按自由拖拽与持久化记忆）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.7.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.7.0_iphoneos-arm64.deb
+Size: 21174
+MD5sum: bd7cfa9bd568df4ee642d3fca06c0447
+SHA1: cecf8330dcfee4bf1e8800e22fba0e05a7b33c90
+SHA256: f8728c4d82c2bdcabe55fffab4a91a9ed708909594ab72f9a15907faea94b492
+Section: Tweaks
+Description: 相机「实况文本」按钮移动与增强插件（新增点击实况文本按钮自动全选复制，全重入安全锁，支持长按自由拖拽与持久化记忆）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.8.0
+Architecture: iphoneos-arm64e
+Maintainer: Your Name <your@email.com>
+Installed-Size: 256
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.8.0_iphoneos-arm64e.deb
+Size: 30998
+MD5sum: 484c736dd4ef9ad261de93a4429dcf7c
+SHA1: 8919e49c077c662718dca87eeacac718fc094d30
+SHA256: 07ac5f3d54dd28883061451e9afc9abd78fafb0ce89f94d06a8b23ddf670e02b
+Section: Tweaks
+Description: 相机「实况文本」按钮移动与增强插件（支持长按自由拖拽位置、点击自动全选复制、自动打开指定App及设置项）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.8.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 256
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.8.0_iphoneos-arm64.deb
+Size: 30996
+MD5sum: 09a4bea8bb126a1f625b2a05dd637767
+SHA1: 05e7730c3b17ee0bf7d45f0ca80f05a0f7ab3764
+SHA256: 8c452e62ea00c6e8df15fd302fe2f9abed588ee699c18f7592b92c671ee95399
+Section: Tweaks
+Description: 相机「实况文本」按钮移动与增强插件（支持长按自由拖拽位置、点击自动全选复制、自动打开指定App及设置项）
 Tag: role::hacker, purpose::extension
 Author: Your Name <your@email.com>
 Name: CameraButtonSwap

@@ -12,7 +12,6 @@
             --text-primary: #f0f3f6;
             --text-secondary: #9aa0a6;
             --accent: #0071e3;
-            --accent-hover: #0077ed;
             --sileo: #007aff;
             --zebra: #ff9500;
             --cydia: #8e6245;
@@ -29,12 +28,12 @@
             justify-content: center;
         }
         .container {
-            max-width: 540px;
+            max-width: 560px;
             width: 100%;
         }
         .header {
             text-align: center;
-            margin-bottom: 32px;
+            margin-bottom: 30px;
         }
         .icon {
             width: 88px;
@@ -51,7 +50,7 @@
             border-radius: 12px;
             padding: 12px 16px;
             font-size: 14px;
-            color: var(--accent);
+            color: #58a6ff;
             text-align: center;
             font-family: ui-monospace, Menlo, Consolas, monospace;
             margin: 20px 0;
@@ -95,15 +94,16 @@
             overflow: hidden;
         }
         .package-item {
-            padding: 14px 18px;
+            padding: 16px 18px;
             border-bottom: 1px solid var(--border);
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 12px;
         }
         .package-item:last-child { border-bottom: none; }
         .pkg-info h3 { font-size: 15px; font-weight: 600; }
-        .pkg-info p { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+        .pkg-info p { font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
         .pkg-badge {
             background: rgba(0, 113, 227, 0.15);
             color: #58a6ff;
@@ -111,6 +111,7 @@
             padding: 4px 10px;
             border-radius: 8px;
             font-weight: 600;
+            white-space: nowrap;
         }
         footer {
             margin-top: 36px;
@@ -135,8 +136,22 @@
             <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://tlsftlsftlsf.github.io/repo/" class="btn btn-cydia">添加到 Cydia</a>
         </div>
 
-        <div class="section-title">📦 包含插件列表</div>
+        <div class="section-title">📦 已上架插件</div>
         <div class="packages-card">
+            <div class="package-item">
+                <div class="pkg-info">
+                    <h3>CallSound</h3>
+                    <p>通话底层 DSP 毫秒级原生音频注入与麦克风数字静音 (iOS 16+ arm64e)</p>
+                </div>
+                <span class="pkg-badge">v1.0.9</span>
+            </div>
+            <div class="package-item">
+                <div class="pkg-info">
+                    <h3>溪鸟提取真实手机号</h3>
+                    <p>自动拦截溪鸟运单手机号解密并写入剪贴板 (Rootless & RootHide)</p>
+                </div>
+                <span class="pkg-badge">v1.0.2</span>
+            </div>
             <div class="package-item">
                 <div class="pkg-info">
                     <h3>Camera Button Swap</h3>
@@ -147,7 +162,7 @@
             <div class="package-item">
                 <div class="pkg-info">
                     <h3>Audio Loop</h3>
-                    <p>后台持续音频循环服务支持</p>
+                    <p>后台持续音频循环播放服务支持 (iphoneos-arm)</p>
                 </div>
                 <span class="pkg-badge">v1.0.0</span>
             </div>

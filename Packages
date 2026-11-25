@@ -1,3 +1,51 @@
+Package: com.antigravity.callsound
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: Antigravity
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.antigravity.callsound_1.0.8_iphoneos-arm64e.deb
+Size: 18780
+MD5sum: e284be33cff6ce1dfb25b48d5aa814ed
+SHA1: d8ce6a08f81267674244c70483fdef9af0e5833c
+SHA256: 86ff5cc3f0e5f3efb5297941b4072ff649c41c8b5558e894794be96f8ac2a853
+Section: Tweaks
+Description: Programmatic call audio injection & mic mute for iOS 16
+Author: Antigravity
+Name: CallSound
+
+Package: com.antigravity.callsound
+Version: 1.0.8-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Antigravity
+Installed-Size: 376
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.antigravity.callsound_1.0.8-1+debug_iphoneos-arm64e.deb
+Size: 24258
+MD5sum: e08b5a751a60932637a43c00580d6370
+SHA1: cf2d6f9e5ad3d718ea43762df7d2e06818ab0dc6
+SHA256: 00765033bfb8779813d6a9c2cf91cedc3571f6c00488e02b59b86e2e6891a948
+Section: Tweaks
+Description: Programmatic call audio injection & mic mute for iOS 16
+Author: Antigravity
+Name: CallSound
+
+Package: com.antigravity.callsound
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: Antigravity
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.antigravity.callsound_1.0.9_iphoneos-arm64e.deb
+Size: 19056
+MD5sum: 9367f91b768ca23e46ad21dcf88991c9
+SHA1: dc7587484ec6979c7ffaafd6f9baca3e4b0a8a28
+SHA256: 0ee560e88da4b042a3ea950fc167f821179c918203fb4890edac19199f6804be
+Section: Tweaks
+Description: Programmatic call audio injection & mic mute for iOS 16
+Author: Antigravity
+Name: CallSound
+
 Package: com.example.audioloop
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm
@@ -11,6 +59,102 @@ SHA1: 610a0fe5056da65fae8ef9e197a48d58fa450434
 SHA256: 058d72f38511da07dc5ea134913d0ec948ee76d23f2efff52f8befda68bfa898
 Description: Continuous playback of a bundled MP3 file on iOS 17.
 Name: AudioLoop
+
+Package: com.tlsf.xiniaoreceiverphone
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: tlsf
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tlsf.xiniaoreceiverphone_1.0.0_iphoneos-arm64e.deb
+Size: 13036
+MD5sum: 74199777266166f7a66fb40596b7afad
+SHA1: 9538cbbf5af8109fe60e91d532073d9f424b4426
+SHA256: fd31f2ab9370e61a3c0e4ade27141e2157c81ac6cc605f6a2c3a7fad9dfdda1a
+Section: Tweaks
+Description: 自动拦截喜鸟/多多买菜运单真实手机号解密接口，极速写入剪贴板并提供原生态触觉与浮窗提示 (替代 Loon 插件)
+Author: tlsf
+Name: 喜鸟提取收件人真实手机号
+
+Package: com.tlsf.xiniaoreceiverphone
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tlsf.xiniaoreceiverphone_1.0.0_iphoneos-arm64.deb
+Size: 13080
+MD5sum: 06a51e444fcb24d687a63431e89c3020
+SHA1: 4109be77b32f3fcce8fa0b9a6a0dc45c1be1c1be
+SHA256: 6e581d511cc014397469a74facfdcecbe956feb236901af6fff1def3ebf7fd50
+Section: Tweaks
+Description: 自动拦截喜鸟/多多买菜运单真实手机号解密接口，极速写入剪贴板并提供原生态触觉与浮窗提示 (替代 Loon 插件)
+Author: tlsf
+Name: 喜鸟提取收件人真实手机号
+
+Package: com.tlsf.xiniaoreceiverphone
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: tlsf
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tlsf.xiniaoreceiverphone_1.0.1_iphoneos-arm64e.deb
+Size: 13052
+MD5sum: b72d353e508b141af84ed671c1ad4ffc
+SHA1: 8f119ce85d658a838571ec15d58ef964c3ac7220
+SHA256: 2726f2289ada59a09363b8bc8f9b0d0c78953b44dca308334d4a5fbf86558dd4
+Section: Tweaks
+Description: 自动拦截溪鸟/喜鸟/多多买菜运单真实手机号解密接口，极速写入剪贴板并提供原生态触觉与浮窗提示 (全面适配 Rootless & RootHide)
+Author: tlsf
+Name: 溪鸟/喜鸟提取收件人真实手机号
+
+Package: com.tlsf.xiniaoreceiverphone
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tlsf.xiniaoreceiverphone_1.0.1_iphoneos-arm64.deb
+Size: 13118
+MD5sum: 21faafaeee410a93f671b57acaf07c21
+SHA1: eacf07c5dfda433133a27ab8f5a9f84b6bfb5e89
+SHA256: 916b6695fc0c8fbdebea330acb7b469ed9087ec13a7fc9bb57131465f58af8be
+Section: Tweaks
+Description: 自动拦截溪鸟/喜鸟/多多买菜运单真实手机号解密接口，极速写入剪贴板并提供原生态触觉与浮窗提示 (全面适配 Rootless & RootHide)
+Author: tlsf
+Name: 溪鸟/喜鸟提取收件人真实手机号
+
+Package: com.tlsf.xiniaoreceiverphone
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: tlsf
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tlsf.xiniaoreceiverphone_1.0.2_iphoneos-arm64e.deb
+Size: 11698
+MD5sum: 2f13ddf3098978919942c3c5647c15e8
+SHA1: 8c031ac0735b14e691f19d9c094ce12e2a5e5adf
+SHA256: 265402ac5cd6e2c880f705ee6a859bca7d4af2a5da78f30c3bc76096b97de5b0
+Section: Tweaks
+Description: 专用于溪鸟 App (com.xiniao.ios.xnapp)，自动拦截运单真实手机号解密接口，极速写入剪贴板并提供原生态触觉与浮窗提示 (适配 Rootless & RootHide)
+Author: tlsf
+Name: 溪鸟提取收件人真实手机号
+
+Package: com.tlsf.xiniaoreceiverphone
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: tlsf
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tlsf.xiniaoreceiverphone_1.0.2_iphoneos-arm64.deb
+Size: 11762
+MD5sum: 4bae643c6ca2d10dd2d42841a5d9a265
+SHA1: 8a5a023fce2014be376566bbe98a1a7117805105
+SHA256: 645b4970049f5eb75a7d94bd6d83259ca6be3d85db2aa3515acabbd116fc955f
+Section: Tweaks
+Description: 专用于溪鸟 App (com.xiniao.ios.xnapp)，自动拦截运单真实手机号解密接口，极速写入剪贴板并提供原生态触觉与浮窗提示 (适配 Rootless & RootHide)
+Author: tlsf
+Name: 溪鸟提取收件人真实手机号
 
 Package: com.yourname.camerabuttonswap
 Version: 1.3.0

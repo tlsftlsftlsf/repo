@@ -1,0 +1,20 @@
+Origin: tlsf's Repo
+Label: tlsf's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: tlsf 个人专属 iOS 越狱插件源
+MD5Sum:
+ e7c47fea1ecde2c146f4c35b2588d58e 7498 Packages
+ 5e64f5e958caa7542db75527fe662e02 2465 Packages.bz2
+ f31c247deb3a8f620df8a7bc397d7ca8 2080 Packages.xz
+SHA1:
+ cd6c7ea61965a1e9a4b32294b43558a736bede21 7498 Packages
+ c732330f8a8c12c75d1e164bbb567f408f2ec02f 2465 Packages.bz2
+ 5b16bf14f49f69c9b1bf8916609778ffab3058d3 2080 Packages.xz
+SHA256:
+ 33a915ad309b2984840e96d718e9f8cdc191d3649b5e097b304af4cd6b6c8ec6 7498 Packages
+ 06fcd39956c76e5b40c02525fb4b699b55597f9fd37723115a0b1e6fe1af30c5 2465 Packages.bz2
+ 68537279aca4394751a4bab73a64282a13df252640a6584a4d1b13c4a50bae38 2080 Packages.xz

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>tlsf's iOS Repo</title>
+    <link rel="icon" type="image/png" href="CydiaIcon.png">
+    <style>
+        :root {
+            --bg: #0f1117;
+            --card-bg: #1a1d27;
+            --text-primary: #f0f3f6;
+            --text-secondary: #9aa0a6;
+            --accent: #0071e3;
+            --accent-hover: #0077ed;
+            --sileo: #007aff;
+            --zebra: #ff9500;
+            --cydia: #8e6245;
+            --border: #2b3040;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 540px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .icon {
+            width: 88px;
+            height: 88px;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0, 113, 227, 0.25);
+            margin-bottom: 16px;
+        }
+        h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+        .subtitle { font-size: 14px; color: var(--text-secondary); }
+        .url-box {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 12px 16px;
+            font-size: 14px;
+            color: var(--accent);
+            text-align: center;
+            font-family: ui-monospace, Menlo, Consolas, monospace;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 20px;
+            border-radius: 14px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #fff;
+            transition: transform 0.15s, opacity 0.15s;
+        }
+        .btn:active { transform: scale(0.98); }
+        .btn-sileo { background: var(--sileo); }
+        .btn-zebra { background: var(--zebra); }
+        .btn-cydia { background: var(--cydia); }
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .packages-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .package-item {
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .package-item:last-child { border-bottom: none; }
+        .pkg-info h3 { font-size: 15px; font-weight: 600; }
+        .pkg-info p { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+        .pkg-badge {
+            background: rgba(0, 113, 227, 0.15);
+            color: #58a6ff;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        footer {
+            margin-top: 36px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="CydiaIcon.png" alt="Repo Icon" class="icon">
+            <h1>tlsf's Personal Repo</h1>
+            <p class="subtitle">个人专属 iOS 越狱插件源</p>
+            <div class="url-box" id="repoUrl">https://tlsftlsftlsf.github.io/repo/</div>
+        </div>
+
+        <div class="btn-group">
+            <a href="sileo://source/https://tlsftlsftlsf.github.io/repo/" class="btn btn-sileo">添加到 Sileo</a>
+            <a href="zbra://sources/add/https://tlsftlsftlsf.github.io/repo/" class="btn btn-zebra">添加到 Zebra</a>
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://tlsftlsftlsf.github.io/repo/" class="btn btn-cydia">添加到 Cydia</a>
+        </div>
+
+        <div class="section-title">📦 包含插件列表</div>
+        <div class="packages-card">
+            <div class="package-item">
+                <div class="pkg-info">
+                    <h3>Camera Button Swap</h3>
+                    <p>锁屏/控制中心相机按钮自定义切换 (arm64 / roothide)</p>
+                </div>
+                <span class="pkg-badge">v2.6.1</span>
+            </div>
+            <div class="package-item">
+                <div class="pkg-info">
+                    <h3>Audio Loop</h3>
+                    <p>后台持续音频循环服务支持</p>
+                </div>
+                <span class="pkg-badge">v1.0.0</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 tlsf · Powered by GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>

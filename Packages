@@ -1,0 +1,184 @@
+Package: com.example.audioloop
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: YourName <you@example.com>
+Installed-Size: 0
+Depends: mobilesubstrate, firmware (>= 17.0)
+Filename: ./debs/com.example.audioloop_1.0.0-1+debug_iphoneos-arm.deb
+Size: 784
+MD5sum: 1d2045d18e211f702f5d24d1cd3d033f
+SHA1: 610a0fe5056da65fae8ef9e197a48d58fa450434
+SHA256: 058d72f38511da07dc5ea134913d0ec948ee76d23f2efff52f8befda68bfa898
+Description: Continuous playback of a bundled MP3 file on iOS 17.
+Name: AudioLoop
+
+Package: com.yourname.camerabuttonswap
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_1.3.0_iphoneos-arm64.deb
+Size: 10362
+MD5sum: d91abfd4f5c85edacceb24a3c8f160bc
+SHA1: c2dffba91100b117acbec0a18a3dffc714954adb
+SHA256: 7be8207c7b7f8d716dac3fbfa01eacad6e0123775a765b90aaedc89cb19ebd47
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（深度适配 iOS 17 / 17.3.1，兼容 iOS 15+），方便左撇子单手操作。
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.0.0_iphoneos-arm64.deb
+Size: 13254
+MD5sum: b89ea77119de16d8e16dcbf451445258
+SHA1: 160a81aa193db6cb65d81bd043ef757ef98b39a0
+SHA256: cd8100b324b95a0d8ee500f6ccd52d2f1fec650136d76e0e93fcd3e789a49bae
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（iOS 17 / 17.3.1 专属重构版，左撇子单手优化，微距智能避让）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.1.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.1.0_iphoneos-arm64.deb
+Size: 13450
+MD5sum: 47f06a78ed814fb3b62b5e212459f982
+SHA1: 8f17352b6704290a751f946aa22e67ffde6b9271
+SHA256: 2d3e678090371663055a03a2617060e7a1033ecbf791d91cd352b438cc211c08
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（iOS 17 / 17.3.1 强力注入版，弹窗提示+触感反馈+精准左置）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.2.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 344
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.2.0_iphoneos-arm64.deb
+Size: 13870
+MD5sum: 22576404eb3593d5d4fac6c12f8bdd1f
+SHA1: 508286b1b269403ad691e9631387318591b1f096
+SHA256: cab05629d7b971dc07f0cc4fde5cf5be6c2cede5ad2a4a88e1ef8e6f5a7beafe
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（iOS 17 Dopamine 双路径强力注入版，TweakInject+Substrate双适配）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.3.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 188
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.3.0_iphoneos-arm64.deb
+Size: 14016
+MD5sum: 28d41c5442dd9c2ff0e453ea573e83e6
+SHA1: 84b61ae8d16430f59e59237b529567f6c344e577
+SHA256: a4e926842e56b777f6e472536b2646f9bb92eaabe43021208889cd179361b105
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（iOS 17 Dopamine 原生免Substrate纯净版，零外部依赖，修复安装报错）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.4.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.4.0_iphoneos-arm64.deb
+Size: 13812
+MD5sum: 45b2f405582ca02ad4161e5e46757c2f
+SHA1: 61d82e8743c2d0441a38900637a585e3271efe4e
+SHA256: d54941eb9f34bbdb0940ee74b85adb4dbd4d319e28ab58d2790d4a2e9f642966
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（iOS 17.3.1 SDK 官方直编译，纯原生零Substrate依赖，Ad-hoc签名强化）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 172
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.5.0_iphoneos-arm64.deb
+Size: 8420
+MD5sum: 71505cab59044609e8b18643edbe0213
+SHA1: 815a648bbc3e307594872e7b8e0fbe0ec2a09dca
+SHA256: a1526e5e993513b6ce1ccaf70dfe03dd226438b388342d334383be2d61ebe39e
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（iOS 17.3.1 纯净正式版，修复点击按钮后文本无法选中的问题，零外部依赖）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.6.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.6.0_iphoneos-arm64.deb
+Size: 14270
+MD5sum: f66d2f2d649b8df40b0534a0b4f900ab
+SHA1: 826b0076407c6bdcdbbbf0bef0d4374e33452582
+SHA256: 4df174c92e786da2e80a72430375d8e3d9bc280db1dd0aa84cc1987c1ef4e0e2
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（支持屏幕长按自由拖拽自定义位置，松开即刻记忆，双击复位，完美保护文本划词选择）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.6.1
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.6.1_iphoneos-arm64.deb
+Size: 15172
+MD5sum: 05e0ad799bc7a886d134fcd552a4884b
+SHA1: 91598767a0ca0a4bc9beb9347b816c8d64f59be3
+SHA256: 361003bc5e6f4909fc295ba861938a3dcbc2989714e3eb6d8367db998af0bb25
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（彻底修复长按保存后闪退的问题，全重入安全锁，支持长按自由拖拽与持久化记忆）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
+Package: com.yourname.camerabuttonswap
+Version: 2.6.1
+Architecture: iphoneos-arm64e
+Maintainer: Your Name <your@email.com>
+Installed-Size: 204
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourname.camerabuttonswap_2.6.1_iphoneos-arm64e_roothide.deb
+Size: 15098
+MD5sum: 9e36a128d5509c75148e24837649c8c1
+SHA1: 80b8bc90a9130dde7659b4b7d463dcaf32bc50c4
+SHA256: 8e5c7d52e454397ff70438a4b054d2b975123b3b26d49e4e0639cdb8b1b1db26
+Section: Tweaks
+Description: 相机「扫描文本」按钮移动到左侧（彻底修复长按保存后闪退的问题，全重入安全锁，支持长按自由拖拽与持久化记忆）
+Tag: role::hacker, purpose::extension
+Author: Your Name <your@email.com>
+Name: CameraButtonSwap
+
